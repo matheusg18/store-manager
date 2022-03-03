@@ -107,7 +107,7 @@ Testes:
 
 - GET /sales
 
-  > Retorna todos as vendas do banco de dados
+  > Retorna todas as vendas do banco de dados
 
 - GET /sales/{saleId}
 
