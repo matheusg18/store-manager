@@ -175,7 +175,7 @@ describe('Sales Service', () => {
         const errorObj = {
           error: { name: 'notFound', message: 'Sale not found' },
         };
-        const venda = await salesService.getById(1);
+        const venda = await salesService.exclude(1);
 
         expect(venda).to.be.deep.equal(errorObj);
       });
